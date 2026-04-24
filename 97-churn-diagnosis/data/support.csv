@@ -1,0 +1,501 @@
+﻿customer_id,tickets_submitted_6mo,avg_resolution_days,primary_ticket_category
+CUST-0001,3,1.8,Feature Request
+CUST-0002,1,2.6,Feature Request
+CUST-0003,0,,None
+CUST-0004,1,3.8,Bug Report
+CUST-0005,3,1.2,Feature Request
+CUST-0006,3,1.0,Feature Request
+CUST-0007,1,2.2,Feature Request
+CUST-0008,2,1.6,Integration
+CUST-0009,1,3.4,Integration
+CUST-0010,4,1.0,Integration
+CUST-0011,2,2.8,Billing
+CUST-0012,2,2.5,Feature Request
+CUST-0013,4,2.0,Onboarding
+CUST-0014,7,8.1,Onboarding
+CUST-0015,3,10.2,Onboarding
+CUST-0016,4,1.2,Feature Request
+CUST-0017,3,3.4,Onboarding
+CUST-0018,4,10.2,Bug Report
+CUST-0019,1,4.6,Feature Request
+CUST-0020,3,4.0,Billing
+CUST-0021,0,,None
+CUST-0022,1,2.5,Feature Request
+CUST-0023,4,1.1,Bug Report
+CUST-0024,4,4.4,Integration
+CUST-0025,1,1.7,Feature Request
+CUST-0026,2,2.5,Integration
+CUST-0027,2,0.5,Feature Request
+CUST-0028,0,,None
+CUST-0029,3,1.3,Billing
+CUST-0030,3,2.6,Feature Request
+CUST-0031,1,3.8,Billing
+CUST-0032,3,1.6,Billing
+CUST-0033,2,4.4,Bug Report
+CUST-0034,3,3.7,Bug Report
+CUST-0035,2,3.1,Bug Report
+CUST-0036,4,9.4,Feature Request
+CUST-0037,1,2.2,Feature Request
+CUST-0038,1,2.6,Feature Request
+CUST-0039,9,8.6,Billing
+CUST-0040,0,,None
+CUST-0041,3,2.3,Feature Request
+CUST-0042,1,0.5,Integration
+CUST-0043,1,4.6,Onboarding
+CUST-0044,0,,None
+CUST-0045,3,3.8,Billing
+CUST-0046,2,0.5,Billing
+CUST-0047,1,1.2,Feature Request
+CUST-0048,0,,None
+CUST-0049,5,3.4,Billing
+CUST-0050,3,2.7,Billing
+CUST-0051,0,,None
+CUST-0052,1,1.5,Feature Request
+CUST-0053,8,7.3,Bug Report
+CUST-0054,2,0.5,Integration
+CUST-0055,1,2.1,Onboarding
+CUST-0056,1,2.4,Onboarding
+CUST-0057,0,,None
+CUST-0058,0,,None
+CUST-0059,0,,None
+CUST-0060,5,7.3,Billing
+CUST-0061,2,2.7,Billing
+CUST-0062,2,1.0,Billing
+CUST-0063,0,,None
+CUST-0064,0,,None
+CUST-0065,4,1.6,Integration
+CUST-0066,2,1.9,Feature Request
+CUST-0067,0,,None
+CUST-0068,1,3.0,Billing
+CUST-0069,3,2.8,Bug Report
+CUST-0070,1,3.7,Onboarding
+CUST-0071,1,0.5,Integration
+CUST-0072,2,0.5,Bug Report
+CUST-0073,2,1.2,Billing
+CUST-0074,0,,None
+CUST-0075,2,2.8,Feature Request
+CUST-0076,2,3.6,Bug Report
+CUST-0077,2,1.8,Bug Report
+CUST-0078,5,1.5,Integration
+CUST-0079,3,0.5,Feature Request
+CUST-0080,3,3.7,Feature Request
+CUST-0081,1,0.6,Onboarding
+CUST-0082,0,,None
+CUST-0083,3,1.8,Bug Report
+CUST-0084,0,,None
+CUST-0085,1,2.0,Billing
+CUST-0086,1,2.6,Bug Report
+CUST-0087,1,2.7,Integration
+CUST-0088,3,3.8,Feature Request
+CUST-0089,6,7.7,Billing
+CUST-0090,3,7.4,Bug Report
+CUST-0091,0,,None
+CUST-0092,3,1.7,Integration
+CUST-0093,4,9.2,Integration
+CUST-0094,1,3.1,Onboarding
+CUST-0095,1,5.0,Onboarding
+CUST-0096,2,2.2,Feature Request
+CUST-0097,1,3.3,Bug Report
+CUST-0098,6,3.6,Integration
+CUST-0099,3,0.5,Onboarding
+CUST-0100,1,0.5,Billing
+CUST-0101,0,,None
+CUST-0102,0,,None
+CUST-0103,3,1.2,Feature Request
+CUST-0104,0,,None
+CUST-0105,0,,None
+CUST-0106,1,1.2,Bug Report
+CUST-0107,0,,None
+CUST-0108,0,,None
+CUST-0109,5,8.6,Onboarding
+CUST-0110,4,4.4,Billing
+CUST-0111,4,2.4,Billing
+CUST-0112,0,,None
+CUST-0113,2,0.5,Feature Request
+CUST-0114,2,2.4,Feature Request
+CUST-0115,1,2.3,Onboarding
+CUST-0116,0,,None
+CUST-0117,1,0.5,Feature Request
+CUST-0118,0,,None
+CUST-0119,1,1.0,Bug Report
+CUST-0120,0,,None
+CUST-0121,5,9.1,Integration
+CUST-0122,2,5.5,Integration
+CUST-0123,2,1.8,Integration
+CUST-0124,0,,None
+CUST-0125,9,6.4,Bug Report
+CUST-0126,2,1.9,Integration
+CUST-0127,2,1.4,Bug Report
+CUST-0128,3,2.0,Bug Report
+CUST-0129,2,1.4,Integration
+CUST-0130,5,2.5,Bug Report
+CUST-0131,1,2.7,Bug Report
+CUST-0132,2,1.1,Onboarding
+CUST-0133,3,2.8,Bug Report
+CUST-0134,0,,None
+CUST-0135,2,4.2,Integration
+CUST-0136,0,,None
+CUST-0137,2,2.8,Integration
+CUST-0138,2,2.9,Billing
+CUST-0139,3,1.6,Onboarding
+CUST-0140,4,10.0,Billing
+CUST-0141,5,5.8,Integration
+CUST-0142,1,1.4,Billing
+CUST-0143,1,3.2,Onboarding
+CUST-0144,0,,None
+CUST-0145,0,,None
+CUST-0146,2,3.0,Integration
+CUST-0147,2,4.3,Integration
+CUST-0148,0,,None
+CUST-0149,3,3.3,Feature Request
+CUST-0150,6,8.5,Bug Report
+CUST-0151,0,,None
+CUST-0152,1,4.5,Onboarding
+CUST-0153,2,1.6,Integration
+CUST-0154,0,,None
+CUST-0155,1,3.7,Onboarding
+CUST-0156,2,2.2,Feature Request
+CUST-0157,0,,None
+CUST-0158,2,1.7,Feature Request
+CUST-0159,1,1.9,Feature Request
+CUST-0160,2,2.6,Billing
+CUST-0161,3,1.3,Integration
+CUST-0162,2,0.8,Feature Request
+CUST-0163,3,0.9,Billing
+CUST-0164,2,7.0,Onboarding
+CUST-0165,0,,None
+CUST-0166,5,2.1,Feature Request
+CUST-0167,3,1.8,Feature Request
+CUST-0168,0,,None
+CUST-0169,5,3.6,Billing
+CUST-0170,1,1.7,Onboarding
+CUST-0171,1,4.0,Bug Report
+CUST-0172,3,2.0,Bug Report
+CUST-0173,2,0.8,Feature Request
+CUST-0174,6,6.8,Billing
+CUST-0175,0,,None
+CUST-0176,4,8.5,Bug Report
+CUST-0177,3,3.1,Onboarding
+CUST-0178,2,1.1,Feature Request
+CUST-0179,3,0.5,Billing
+CUST-0180,0,,None
+CUST-0181,1,1.5,Billing
+CUST-0182,4,0.5,Billing
+CUST-0183,1,4.6,Onboarding
+CUST-0184,3,2.0,Feature Request
+CUST-0185,1,2.5,Billing
+CUST-0186,1,2.6,Feature Request
+CUST-0187,3,0.7,Integration
+CUST-0188,3,2.9,Feature Request
+CUST-0189,3,6.6,Feature Request
+CUST-0190,2,1.9,Feature Request
+CUST-0191,4,5.7,Bug Report
+CUST-0192,2,4.2,Feature Request
+CUST-0193,1,3.6,Feature Request
+CUST-0194,4,2.7,Billing
+CUST-0195,3,6.2,Onboarding
+CUST-0196,5,0.5,Onboarding
+CUST-0197,0,,None
+CUST-0198,8,6.4,Onboarding
+CUST-0199,0,,None
+CUST-0200,0,,None
+CUST-0201,2,1.7,Integration
+CUST-0202,3,1.2,Feature Request
+CUST-0203,3,2.9,Billing
+CUST-0204,1,1.4,Billing
+CUST-0205,2,0.5,Integration
+CUST-0206,4,1.2,Feature Request
+CUST-0207,3,1.8,Feature Request
+CUST-0208,2,1.0,Bug Report
+CUST-0209,1,2.0,Onboarding
+CUST-0210,7,11.9,Billing
+CUST-0211,2,4.8,Feature Request
+CUST-0212,4,4.7,Billing
+CUST-0213,2,1.4,Onboarding
+CUST-0214,1,4.4,Onboarding
+CUST-0215,3,1.1,Integration
+CUST-0216,3,1.5,Onboarding
+CUST-0217,0,,None
+CUST-0218,2,3.1,Feature Request
+CUST-0219,0,,None
+CUST-0220,4,0.5,Feature Request
+CUST-0221,1,9.4,Billing
+CUST-0222,1,2.3,Billing
+CUST-0223,0,,None
+CUST-0224,2,3.3,Bug Report
+CUST-0225,1,3.3,Feature Request
+CUST-0226,4,7.9,Onboarding
+CUST-0227,1,2.1,Feature Request
+CUST-0228,3,0.5,Integration
+CUST-0229,4,1.8,Bug Report
+CUST-0230,1,2.0,Feature Request
+CUST-0231,6,8.4,Billing
+CUST-0232,1,1.7,Integration
+CUST-0233,3,0.5,Billing
+CUST-0234,5,0.7,Billing
+CUST-0235,2,2.8,Billing
+CUST-0236,2,1.2,Billing
+CUST-0237,1,6.7,Billing
+CUST-0238,0,,None
+CUST-0239,0,,None
+CUST-0240,1,1.7,Integration
+CUST-0241,2,1.5,Bug Report
+CUST-0242,6,3.5,Feature Request
+CUST-0243,1,2.7,Bug Report
+CUST-0244,3,1.2,Bug Report
+CUST-0245,0,,None
+CUST-0246,3,1.4,Feature Request
+CUST-0247,0,,None
+CUST-0248,3,1.7,Integration
+CUST-0249,2,2.9,Billing
+CUST-0250,1,8.2,Billing
+CUST-0251,1,0.8,Feature Request
+CUST-0252,3,1.8,Feature Request
+CUST-0253,1,3.7,Onboarding
+CUST-0254,2,0.5,Billing
+CUST-0255,4,8.7,Onboarding
+CUST-0256,3,7.6,Feature Request
+CUST-0257,3,2.0,Feature Request
+CUST-0258,3,3.6,Billing
+CUST-0259,3,3.0,Feature Request
+CUST-0260,4,3.2,Onboarding
+CUST-0261,2,1.0,Billing
+CUST-0262,6,8.4,Billing
+CUST-0263,3,7.0,Bug Report
+CUST-0264,3,3.4,Onboarding
+CUST-0265,2,10.4,Onboarding
+CUST-0266,2,1.6,Integration
+CUST-0267,0,,None
+CUST-0268,3,3.1,Billing
+CUST-0269,2,3.1,Feature Request
+CUST-0270,2,1.6,Billing
+CUST-0271,2,2.4,Bug Report
+CUST-0272,1,1.9,Bug Report
+CUST-0273,0,,None
+CUST-0274,2,0.5,Bug Report
+CUST-0275,1,2.5,Integration
+CUST-0276,3,11.2,Bug Report
+CUST-0277,1,1.7,Onboarding
+CUST-0278,1,4.7,Integration
+CUST-0279,1,3.9,Billing
+CUST-0280,2,2.9,Bug Report
+CUST-0281,1,2.4,Feature Request
+CUST-0282,1,0.8,Billing
+CUST-0283,5,1.2,Feature Request
+CUST-0284,0,,None
+CUST-0285,3,4.1,Feature Request
+CUST-0286,0,,None
+CUST-0287,2,3.1,Bug Report
+CUST-0288,2,1.7,Onboarding
+CUST-0289,5,2.8,Feature Request
+CUST-0290,4,2.7,Integration
+CUST-0291,2,0.6,Billing
+CUST-0292,2,0.5,Feature Request
+CUST-0293,5,1.2,Billing
+CUST-0294,2,4.4,Onboarding
+CUST-0295,4,2.8,Integration
+CUST-0296,3,3.4,Feature Request
+CUST-0297,1,3.0,Feature Request
+CUST-0298,1,3.5,Feature Request
+CUST-0299,5,6.6,Bug Report
+CUST-0300,0,,None
+CUST-0301,2,2.3,Onboarding
+CUST-0302,5,6.1,Onboarding
+CUST-0303,2,5.4,Onboarding
+CUST-0304,0,,None
+CUST-0305,1,2.0,Onboarding
+CUST-0306,0,,None
+CUST-0307,6,6.3,Integration
+CUST-0308,3,0.7,Integration
+CUST-0309,1,2.2,Bug Report
+CUST-0310,1,2.2,Billing
+CUST-0311,1,1.3,Integration
+CUST-0312,1,3.5,Onboarding
+CUST-0313,3,0.6,Onboarding
+CUST-0314,1,3.7,Billing
+CUST-0315,3,0.8,Integration
+CUST-0316,2,4.2,Bug Report
+CUST-0317,5,5.2,Bug Report
+CUST-0318,1,4.3,Onboarding
+CUST-0319,2,1.3,Integration
+CUST-0320,3,1.8,Bug Report
+CUST-0321,2,1.9,Integration
+CUST-0322,7,5.0,Onboarding
+CUST-0323,4,4.7,Bug Report
+CUST-0324,3,1.6,Feature Request
+CUST-0325,0,,None
+CUST-0326,2,1.4,Bug Report
+CUST-0327,4,8.1,Billing
+CUST-0328,4,1.5,Integration
+CUST-0329,2,2.8,Feature Request
+CUST-0330,1,4.2,Feature Request
+CUST-0331,1,1.2,Onboarding
+CUST-0332,2,1.2,Integration
+CUST-0333,2,4.1,Billing
+CUST-0334,0,,None
+CUST-0335,1,3.1,Feature Request
+CUST-0336,0,,None
+CUST-0337,1,1.5,Feature Request
+CUST-0338,5,2.8,Onboarding
+CUST-0339,0,,None
+CUST-0340,1,3.8,Billing
+CUST-0341,5,6.1,Billing
+CUST-0342,2,3.3,Bug Report
+CUST-0343,4,2.1,Billing
+CUST-0344,1,2.3,Onboarding
+CUST-0345,2,2.0,Integration
+CUST-0346,3,3.0,Onboarding
+CUST-0347,2,1.4,Billing
+CUST-0348,2,3.1,Billing
+CUST-0349,3,0.5,Integration
+CUST-0350,1,0.5,Feature Request
+CUST-0351,4,4.7,Bug Report
+CUST-0352,0,,None
+CUST-0353,2,2.8,Bug Report
+CUST-0354,2,0.5,Billing
+CUST-0355,2,0.6,Feature Request
+CUST-0356,1,3.1,Onboarding
+CUST-0357,2,2.9,Feature Request
+CUST-0358,1,1.7,Integration
+CUST-0359,2,1.9,Feature Request
+CUST-0360,2,0.9,Feature Request
+CUST-0361,3,1.6,Bug Report
+CUST-0362,2,1.5,Feature Request
+CUST-0363,2,3.0,Bug Report
+CUST-0364,8,7.8,Billing
+CUST-0365,0,,None
+CUST-0366,1,1.1,Onboarding
+CUST-0367,1,4.5,Onboarding
+CUST-0368,3,2.7,Integration
+CUST-0369,0,,None
+CUST-0370,11,10.4,Billing
+CUST-0371,4,1.7,Billing
+CUST-0372,3,1.8,Feature Request
+CUST-0373,3,2.7,Billing
+CUST-0374,3,2.3,Onboarding
+CUST-0375,6,3.8,Bug Report
+CUST-0376,4,2.3,Onboarding
+CUST-0377,0,,None
+CUST-0378,1,1.5,Onboarding
+CUST-0379,1,1.8,Bug Report
+CUST-0380,0,,None
+CUST-0381,3,3.0,Bug Report
+CUST-0382,0,,None
+CUST-0383,0,,None
+CUST-0384,2,0.5,Billing
+CUST-0385,1,3.0,Onboarding
+CUST-0386,5,9.2,Billing
+CUST-0387,4,3.9,Onboarding
+CUST-0388,5,0.5,Bug Report
+CUST-0389,0,,None
+CUST-0390,0,,None
+CUST-0391,4,7.0,Bug Report
+CUST-0392,1,3.6,Onboarding
+CUST-0393,4,1.5,Feature Request
+CUST-0394,6,3.4,Feature Request
+CUST-0395,6,4.5,Onboarding
+CUST-0396,2,1.4,Integration
+CUST-0397,5,2.2,Billing
+CUST-0398,2,1.8,Integration
+CUST-0399,1,1.8,Onboarding
+CUST-0400,2,3.1,Billing
+CUST-0401,4,3.7,Onboarding
+CUST-0402,4,1.5,Integration
+CUST-0403,2,2.5,Integration
+CUST-0404,3,0.9,Billing
+CUST-0405,0,,None
+CUST-0406,0,,None
+CUST-0407,3,1.4,Integration
+CUST-0408,1,1.7,Billing
+CUST-0409,1,2.8,Feature Request
+CUST-0410,2,1.7,Integration
+CUST-0411,0,,None
+CUST-0412,1,0.5,Billing
+CUST-0413,4,3.3,Feature Request
+CUST-0414,0,,None
+CUST-0415,5,3.9,Billing
+CUST-0416,3,2.8,Integration
+CUST-0417,0,,None
+CUST-0418,0,,None
+CUST-0419,2,4.3,Feature Request
+CUST-0420,2,3.3,Billing
+CUST-0421,2,1.2,Billing
+CUST-0422,3,0.5,Bug Report
+CUST-0423,7,8.4,Feature Request
+CUST-0424,2,3.8,Feature Request
+CUST-0425,5,3.5,Feature Request
+CUST-0426,1,3.5,Feature Request
+CUST-0427,2,2.2,Billing
+CUST-0428,2,3.1,Billing
+CUST-0429,0,,None
+CUST-0430,2,3.0,Bug Report
+CUST-0431,1,3.7,Bug Report
+CUST-0432,1,1.3,Onboarding
+CUST-0433,0,,None
+CUST-0434,0,,None
+CUST-0435,5,8.2,Bug Report
+CUST-0436,9,6.7,Bug Report
+CUST-0437,3,2.8,Bug Report
+CUST-0438,2,6.3,Bug Report
+CUST-0439,2,2.3,Billing
+CUST-0440,3,5.0,Billing
+CUST-0441,2,3.3,Feature Request
+CUST-0442,3,3.4,Feature Request
+CUST-0443,5,7.1,Onboarding
+CUST-0444,0,,None
+CUST-0445,0,,None
+CUST-0446,0,,None
+CUST-0447,3,6.7,Bug Report
+CUST-0448,3,2.1,Billing
+CUST-0449,1,3.3,Bug Report
+CUST-0450,6,5.1,Bug Report
+CUST-0451,0,,None
+CUST-0452,9,5.3,Onboarding
+CUST-0453,0,,None
+CUST-0454,3,1.1,Feature Request
+CUST-0455,0,,None
+CUST-0456,5,4.7,Billing
+CUST-0457,3,4.8,Integration
+CUST-0458,4,1.9,Feature Request
+CUST-0459,6,5.2,Billing
+CUST-0460,2,8.4,Bug Report
+CUST-0461,2,1.3,Integration
+CUST-0462,1,1.8,Feature Request
+CUST-0463,2,0.6,Onboarding
+CUST-0464,2,2.1,Feature Request
+CUST-0465,5,2.5,Billing
+CUST-0466,2,1.5,Feature Request
+CUST-0467,6,7.8,Onboarding
+CUST-0468,0,,None
+CUST-0469,2,0.5,Onboarding
+CUST-0470,1,2.2,Onboarding
+CUST-0471,3,1.5,Feature Request
+CUST-0472,5,3.2,Billing
+CUST-0473,0,,None
+CUST-0474,3,3.0,Feature Request
+CUST-0475,2,5.8,Onboarding
+CUST-0476,4,2.0,Bug Report
+CUST-0477,5,3.4,Integration
+CUST-0478,1,1.7,Feature Request
+CUST-0479,1,5.6,Bug Report
+CUST-0480,1,2.3,Bug Report
+CUST-0481,2,0.7,Billing
+CUST-0482,2,2.0,Integration
+CUST-0483,2,1.5,Billing
+CUST-0484,0,,None
+CUST-0485,0,,None
+CUST-0486,3,1.1,Onboarding
+CUST-0487,2,4.8,Bug Report
+CUST-0488,0,,None
+CUST-0489,0,,None
+CUST-0490,0,,None
+CUST-0491,3,3.3,Bug Report
+CUST-0492,2,3.4,Feature Request
+CUST-0493,2,2.0,Bug Report
+CUST-0494,2,2.4,Integration
+CUST-0495,1,4.8,Onboarding
+CUST-0496,3,0.5,Onboarding
+CUST-0497,3,2.8,Feature Request
+CUST-0498,1,2.2,Feature Request
+CUST-0499,0,,None
+CUST-0500,3,2.0,Feature Request

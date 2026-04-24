@@ -1,0 +1,23 @@
+<!--
+Video script for Challenge 95, target runtime 5 minutes at 150 wpm.
+Five sections: Opening, Code walkthrough, Runbook walkthrough, AI question, Reflection.
+No em-dashes. No banned vocab. Pre-stripped for HeyGen.
+-->
+
+A customer places an order. The card is charged. The email never arrives.
+
+That happens to four to six percent of orders at peak hours on this pipeline, and the cause is not exotic. It is a three-line ordering bug compounded by four supporting defects. The consumer calls delete on the SQS message, then tries to send the email. SQS uses at-least-once delivery, so the reliability model rests on one rule. You delete after the work is done, not before. Flip those two calls, wrap the send in a bounded retry, route anything that still fails into a dead-letter queue, and add an idempotency claim on the stable order ID so the retry path cannot send duplicate emails. That is the whole fix. Five moves, all inside AWS primitives the team already runs.
+
+Now the code walkthrough. Five changes. Two structural, three hygiene.
+
+Structural one, delete-after-send. The send call is wrapped in try except. On success, delete from the main queue. On retry exhaustion, route to DLQ first, then delete. The DLQ write is the step that can fail in an interesting way, so it has to happen before the main-queue delete. Otherwise you can end up with a failed DLQ write and an already-deleted main-queue entry, which is the same silent drop we started with.
+
+Structural two, the retry budget. Three attempts at one, two, four seconds. No jitter. Jitter earns its place when a fleet is pounding the same upstream, but this is a single consumer, so jitter would only make timing harder to reason about. Total retry window caps at seven seconds, which fits inside the default thirty-second SQS visibility timeout. If I went over, SQS would redeliver mid-retry and send duplicate emails.
+
+Hygiene. First, swap the arbitrary-code eval builtin for json dot loads. That closes the remote-code-execution hole and routes parse errors to DLQ on the first try. Second, validate required fields before SMTP. Missing order ID or missing email goes straight to DLQ. Third, the idempotency story. Earlier drafts used an in-process set of ReceiptHandles. That was wrong and I want to say so clearly. A ReceiptHandle is per-delivery, so SQS issues a new one on every visibility-timeout redelivery of the same order. A set of handles does not catch the common duplicate case. The honest fix is a DynamoDB conditional PutItem on order ID with a seven-day TTL. That works across restarts, across a scaled fleet, and across redelivery.
+
+Runbook walkthrough. The alarm-triggered flow. PagerDuty fires off a CloudWatch alarm on DLQ depth above zero. One message in the DLQ is always a dropped order, so the alarm is tight on purpose. On-call gets paged at 2am and has never seen this service. The runbook walks them top to bottom. Query the order DB for recent unconfirmed orders. Check main queue and DLQ depths. Read CloudWatch logs filtered to ERROR and group by the DLQ reason field. Then two mitigation levers. Lever one, if parse errors are flooding, flip the DLQ_ON_PARSE_ERROR kill switch off via a task-definition update. Five-minute change, no redeploy. Lever two, if the SMTP relay is down, pause the consumer entirely. Messages are safe for fourteen days. Once healthy, replay the DLQ. The DynamoDB claim prevents duplicates on replay.
+
+The moment I pushed back on the AI. First pass of the retry wrapper was an uncapped loop with a fixed thirty-second backoff. The code compiled. The test I had asked for, message survives SMTP failure, passed. It looked like a fix. It was a fix to the wrong problem. Thirty seconds per attempt with no cap would hold the message past the visibility timeout and cause duplicate processing. I pushed back with the constraint that all retries must complete inside thirty seconds and there must be a hard cap. Claude came back with three attempts at one, two, four seconds. That is what shipped. The lesson is simple. When an AI pass makes the code compile and the requested test pass, that is not evidence the fix is correct. It is evidence the AI is fluent.
+
+Reflection. If I had the four weeks to run again, two decisions change. I would start with the DynamoDB idempotency claim on day one, not phase it in. The first submission phased it, and the phase-one story was too weak to defend. I would also build the staged rollout framework first, before shipping any bug fix, because a ready canary path makes every change cheaper and every rollback faster. Everything else I would ship the same way.

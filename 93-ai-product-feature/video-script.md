@@ -1,0 +1,13 @@
+# Video Script, Challenge 93, Meridian AI Assistant
+
+Meridian has four enterprise contracts on a Q2 AI Assistant, three engineers, six weeks, no ML team, and a competitor still paying for a wrong financial summary last year. The strategy is a thin shell. A hosted LLM picks tools, the semantic layer runs the SQL, the existing chart library renders the answer, and every response shows the SQL, the row count, and a confidence note. Users can see the work. That is the whole point.
+
+The most important cut from Phase 1 is cross-dataset joins the user did not pre-author. Plain-language questions across two datasets are the demo sales wants. They are also the exact failure mode that burned the competitor. Without a governed join graph, the model guesses a join key, the query runs, and a confident wrong number lands in a finance report. Without the cut, one of two things happens. Either the team burns three of six weeks building a join graph Meridian does not have, and we miss the date. Or the team ships joins without a graph, and a hallucinated number lands in a Fortune 1000 finance team inside the first month. Neither keeps the renewals. Cutting joins keeps them.
+
+Now the enterprise customer with residency requirements, wanting AI now, frustrated.
+
+I would tell them this. Your residency requirements are real and we are going to honor them, not work around them. That is why your Assistant does not turn on in Phase 1. Phase 1 routes queries through a hosted model provider, and our legal team has not signed a data handling agreement that covers your contract. Turning it on before that signature would be a breach, and you would be right to be angrier about that than about the wait. Phase 2 is the work to bring the Assistant to you under terms that match what you signed with us. I will not give you a Phase 2 date tonight, because the gating step is legal sign-off and possibly an in-region deployment, and I will not promise a date I cannot keep. I will send you a written update every two weeks until you have the feature.
+
+Mandatory question. Walk me through one specific moment in this challenge where you redirected the AI, what did it produce, why was that not quite right, and how did you correct or build on it.
+
+The first draft of the feature scope listed the Phase 1 cuts as a three-item bulleted list. Cross-dataset joins, write-back, on-premise inference. It was clean, and it was wrong. The list made the cuts feel administrative. They are not. They are the decisions that determine whether this feature ships safely. I rewrote the section as continuous prose, longer, with the reasoning next to each cut. The cuts stopped looking like bullet points and started looking like a stance.

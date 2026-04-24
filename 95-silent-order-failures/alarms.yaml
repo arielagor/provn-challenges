@@ -1,0 +1,50 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >
+  CloudWatch alarm + SNS topic for Order Confirmation Service. Fires when
+  any message lands in the dead-letter queue, which is the canonical signal
+  that an order confirmation failed to send after retries. The SNS topic is
+  subscribed by PagerDuty for the 2am page.
+
+Parameters:
+  DLQName:
+    Type: String
+    Default: order-confirmations-dlq
+  PagerDutyEndpoint:
+    Type: String
+    Description: PagerDuty email integration endpoint for SNS subscription.
+    Default: ops-oncall@agor.pagerduty.com
+
+Resources:
+  OrderConfirmationPagerTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: order-confirmation-oncall
+      DisplayName: "Order Confirmation On-Call"
+      Subscription:
+        - Protocol: email
+          Endpoint: !Ref PagerDutyEndpoint
+
+  DLQDepthAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: OrderConfirmation-DLQ-Depth-Above-Zero
+      AlarmDescription: >
+        DLQ has at least one unprocessed message. Every message in this
+        queue represents a customer order whose confirmation email failed
+        to send. Runbook: readme.md Section B1.
+      Namespace: AWS/SQS
+      MetricName: ApproximateNumberOfMessagesVisible
+      Dimensions:
+        - Name: QueueName
+          Value: !Ref DLQName
+      Statistic: Maximum
+      Period: 60
+      EvaluationPeriods: 1
+      DatapointsToAlarm: 1
+      Threshold: 0
+      ComparisonOperator: GreaterThanThreshold
+      TreatMissingData: notBreaching
+      AlarmActions:
+        - !Ref OrderConfirmationPagerTopic
+      OKActions:
+        - !Ref OrderConfirmationPagerTopic
