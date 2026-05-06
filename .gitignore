@@ -170,3 +170,13 @@ $RECYCLE.BIN/
 .env.local
 .env.*.local
 secrets/
+
+# ===== PROVN per-challenge build artifacts (excluded from public repo) =====
+# heygen-config.json contains the HeyGen API key inline. Never commit.
+heygen-config.json
+# Per-challenge submission helpers — not deliverables, kept in /g/My Drive only
+submit_heygen.py
+**/submit_heygen.py
+# Video files are large (~100MB each). Hosted as a GitHub Release instead.
+*.mp4
+*-video-final.mp4

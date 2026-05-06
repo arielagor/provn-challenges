@@ -1,13 +1,16 @@
-# PROVN AI Talent Draft — 10 Challenges, One Evening
+# PROVN AI Talent Draft — 14 Challenges, Two Pushes
 
-This repo is the complete submission record for all 10 challenges in the PROVN AI Talent Draft (provn.co), shipped end-to-end in a single evening across ten different role archetypes.
+This repo is the complete submission record for the PROVN AI Talent Draft (provn.co). The first ten challenges shipped end-to-end in a single evening across ten different role archetypes. Four more were added in a second pass, taking the total to fourteen.
 
 Each challenge got its own folder with deliverables, code, an AI usage log per the PROVN spec, and a 3-minute video walkthrough. Videos are hosted as a [GitHub Release](https://github.com/arielagor/provn-challenges/releases/tag/v1.0-videos) so the repo stays light.
 
-## The ten challenges
+## The fourteen challenges
 
 | # | Role archetype | Challenge | Primary deliverable | Video |
 |---|---|---|---|---|
+| [76](76-tpm-deployment/) | Senior TPM | mpathic Multi-Site AI Safety Deployment | [`program-risk-plan.md`](76-tpm-deployment/program-risk-plan.md) | [watch](https://github.com/arielagor/provn-challenges/releases/download/v1.0-videos/76-video-final.mp4) |
+| [77](77-solutions-architect/) | Lead Solutions Architect | Clarion Health Systems: in-VPC Observing Agent for Marcus's framework | [`solution-architecture-brief.md`](77-solutions-architect/solution-architecture-brief.md) | [watch](https://github.com/arielagor/provn-challenges/releases/download/v1.0-videos/77-video-final.mp4) |
+| [82](82-oracle-edm-migration/) | Oracle EDM Cloud Consultant | Meridian Financial Group migration: 12 weeks, no buffer past year-end | [`migration-configuration-plan.md`](82-oracle-edm-migration/migration-configuration-plan.md) + [`video-walkthrough.md`](82-oracle-edm-migration/video-walkthrough.md) | [watch](https://github.com/arielagor/provn-challenges/releases/download/v1.0-videos/82-video-final.mp4) |
 | [86](86-compliance-ai-agent/) | AI Agent Builder | Automate Compliance Triage At a Financial Services Firm | [`agent-design.md`](86-compliance-ai-agent/agent-design.md) + [`agent_loop_stub.py`](86-compliance-ai-agent/agent_loop_stub.py) | [watch](https://github.com/arielagor/provn-challenges/releases/download/v1.0-videos/86-video-final.mp4) |
 | [87](87-conversion-launch/) | Growth / Marketing | Fix an 11% Conversion Rate and Launch a Product in 6 Weeks | [`growth-launch-brief.md`](87-conversion-launch/growth-launch-brief.md) | [watch](https://github.com/arielagor/provn-challenges/releases/download/v1.0-videos/87-video-final.mp4) |
 | [88](88-bdr-greenfield/) | BDR | Build a Greenfield Outbound Territory in an Untapped Vertical | [`prospect-brief.md`](88-bdr-greenfield/prospect-brief.md) | [watch](https://github.com/arielagor/provn-challenges/releases/download/v1.0-videos/88-video-final.mp4) |
@@ -17,6 +20,7 @@ Each challenge got its own folder with deliverables, code, an AI usage log per t
 | [93](93-ai-product-feature/) | AI Product Manager | Define and De-Risk an AI Feature With 6 Weeks, 3 Engineers, and No ML Team | [`ai-product-brief.md`](93-ai-product-feature/ai-product-brief.md) | [watch](https://github.com/arielagor/provn-challenges/releases/download/v1.0-videos/93-video-final.mp4) |
 | [94](94-discovery-demo/) | AI Sales Engineer | Run a 45-Minute Discovery and Demo That Closes Out a Competitor | [`discovery-solution-brief.md`](94-discovery-demo/discovery-solution-brief.md) | [watch](https://github.com/arielagor/provn-challenges/releases/download/v1.0-videos/94-video-final.mp4) |
 | [95](95-silent-order-failures/) | Senior SWE | Diagnose Silent Order Failures in a Live E-Commerce Pipeline | [`order_confirmation_service_fixed.py`](95-silent-order-failures/order_confirmation_service_fixed.py) + [`alarms.yaml`](95-silent-order-failures/alarms.yaml) | [watch](https://github.com/arielagor/provn-challenges/releases/download/v1.0-videos/95-video-final.mp4) |
+| [96](96-broker-tech-incident/) | Senior SWE | DAT Broker Tech: INC-4471 webhook duplicate-delivery + consumer lag root cause | [`webhook-delivery.service.ts`](96-broker-tech-incident/webhook-delivery.service.ts) + [`webhook-delivery.service.test.ts`](96-broker-tech-incident/webhook-delivery.service.test.ts) | [watch](https://github.com/arielagor/provn-challenges/releases/download/v1.0-videos/96-video-final.mp4) |
 | [97](97-churn-diagnosis/) | Data Analyst | Diagnose a 62% Spike in Churn Before the Board Meeting | [`analysis-document.md`](97-churn-diagnosis/analysis-document.md) + [`analysis-document.pdf`](97-churn-diagnosis/analysis-document.pdf) + [`churn_analysis.py`](97-churn-diagnosis/churn_analysis.py) | [watch](https://github.com/arielagor/provn-challenges/releases/download/v1.0-videos/97-video-final.mp4) |
 
 ## Per-challenge structure
