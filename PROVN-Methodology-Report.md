@@ -15,7 +15,7 @@ The first version of this document framed me as the engineer orchestrating AI. T
 
 This document is the more accurate trace. It includes the actual prompts I gave Claude, the prompts Claude gave its own subagents, the points where I intervened, and the cases where I overrode Claude's output and rewrote it myself.
 
-I'm rewriting this because the kind of trust PROVN extends to candidates depends on candidates being honest about how the work got done. If you're going to evaluate me as someone who can build with AI, you should see exactly how I work with it.
+I'm rewriting this the day after our call. The kind of trust PROVN extends to candidates depends on candidates being honest about how the work got done. If you're going to evaluate me as someone who can build with AI, you should see exactly how I work with it.
 
 ---
 
@@ -109,7 +109,7 @@ These are messages I sent Claude during the live session, verbatim:
 
 > "Write a document for me explaining the prompts used and iterations and skills and connections and all tools etc. And the order in which they were invoked as a timeline of how the 10 challenges were completed for submission to Niki Parekh CEO and founder and Shailja Nair Program Manager at Provn. Use the create pdf skill for a final product to share"
 
-That last one produced the first methodology document. The prompt you're reading the result of right now is my followup, sent today, asking Claude to redo it honestly.
+That last one produced the first methodology document, which I sent you yesterday after our call. The prompt you're reading the result of right now is my followup, sent today, asking Claude to redo it honestly.
 
 ---
 
@@ -126,6 +126,7 @@ Compressed timeline of strategic calls I made in real time:
 | +3h | Opened second context window when first session hit compaction risk | Continuity across context limits |
 | +4h | Told Claude to stop touching uploads in window 1 | Prevent collisions between two parallel sessions |
 | +5h | Manually rewrote Challenge 91 video script in my own voice | Claude's framing was off; faster to redo than to redirect |
+| Yesterday | Met with Niki, Shailja, and Kate to debrief on the submission | Get the read in person |
 | Today | Asked Claude to redo this document honestly | Trust matters more than polish |
 
 ---
@@ -152,7 +153,7 @@ I have decades of conventional engineering experience too, but the honest answer
 
 The pipeline works for structured deliverable production. Ten challenges across roughly six hours of wall-clock with a handful of human checkpoints, not sixty hours of mine.
 
-The honest framing is harder to write than the heroic framing. The original methodology document took Claude fifteen minutes. This one took longer, plus a call with you that prompted the rewrite. The honest version is more useful to PROVN and to me.
+The honest framing is harder to write than the heroic framing. The original methodology document took Claude fifteen minutes. This one took longer, plus yesterday's call with you that prompted the rewrite. The honest version is more useful to PROVN and to me.
 
 The bottleneck was never Claude's output. It was my willingness to set tight constraints early. Every revision Claude had to make could have been avoided if I had put more in the original prompt. That's the lesson I'm taking into the next pipeline build.
 

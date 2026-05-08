@@ -19,10 +19,10 @@ Claude, the prompts Claude gave its own subagents, the points where I
 intervened, and the cases where I overrode Claude’s output and rewrote it
 myself.
 
-I’m rewriting this because the kind of trust PROVN extends to candidates depends
-on candidates being honest about how the work got done. If you’re going to
-evaluate me as someone who can build with AI, you should see exactly how I work
-with it.
+I’m rewriting this the day after our call. The kind of trust PROVN extends to
+candidates depends on candidates being honest about how the work got done. If
+you’re going to evaluate me as someone who can build with AI, you should see
+exactly how I work with it.
 
 --------------------------------------------------------------------------------
 
@@ -171,9 +171,9 @@ These are messages I sent Claude during the live session, verbatim:
   Parekh CEO and founder and Shailja Nair Program Manager at Provn. Use the
   create pdf skill for a final product to share”
 
-That last one produced the first methodology document. The prompt you’re reading
-the result of right now is my followup, sent today, asking Claude to redo it
-honestly.
+That last one produced the first methodology document, which I sent you
+yesterday after our call. The prompt you’re reading the result of right now is
+my followup, sent today, asking Claude to redo it honestly.
 
 --------------------------------------------------------------------------------
 
@@ -213,6 +213,10 @@ Compressed timeline of strategic calls I made in real time:
   +5h                        Manually rewrote Challenge Claude’s framing was off;
                              91 video script in my own  faster to redo than to
                              voice                      redirect
+
+  Yesterday                  Met with Niki, Shailja,    Get the read in person
+                             and Kate to debrief on the 
+                             submission                 
 
   Today                      Asked Claude to redo this  Trust matters more than
                              document honestly          polish
@@ -260,9 +264,9 @@ roughly six hours of wall-clock with a handful of human checkpoints, not sixty
 hours of mine.
 
 The honest framing is harder to write than the heroic framing. The original
-methodology document took Claude fifteen minutes. This one took longer, plus a
-call with you that prompted the rewrite. The honest version is more useful to
-PROVN and to me.
+methodology document took Claude fifteen minutes. This one took longer, plus
+yesterday’s call with you that prompted the rewrite. The honest version is more
+useful to PROVN and to me.
 
 The bottleneck was never Claude’s output. It was my willingness to set tight
 constraints early. Every revision Claude had to make could have been avoided if
